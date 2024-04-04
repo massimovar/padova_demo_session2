@@ -81,16 +81,48 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  21:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  22:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:ODBCStore'
+   Module: FTOptix.ODBCStore
+   Version: 1.0
+  24:
+   Uri: 'urn:FTOptix:ODBCStore:Net'
+   Module: FTOptix.ODBCStore.Net
+   Version: 1.0
+  25:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  26:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.1
+  27:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  28:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 656
-  Objects: 169
-  ObjectTypes: 6
-  Variables: 479
+  TotalNodeCount: 3313
+  Objects: 666
+  ObjectTypes: 18
+  Variables: 2599
   VariableTypes: 0
   DataTypes: 0
-  Methods: 2
-  References: 30
+  Methods: 30
+  References: 83
   ReferenceTypes: 0
-  Files: 20
+  Files: 23
  Nodes:
  - File: Nodes/padova_demo_session2.yaml

@@ -1,0 +1,138 @@
+Name: MieiWidget
+Type: FolderType
+Children:
+- Name: DisplayConUnitaMisura
+  Id: g=cb71be4f52b03444f177649147539ecf
+  Supertype: RowLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../AnalogVariable1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+        - Name: EUMode
+          Type: BaseVariableType
+          DataType: DynamicLinkEUMode
+          Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: MinValue
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../AnalogVariable1/EURange/Low"
+        Children:
+        - Name: EUMode
+          Type: BaseVariableType
+          DataType: DynamicLinkEUMode
+          Value: 0
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: MaxValue
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 100.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../AnalogVariable1/EURange/High"
+        Children:
+        - Name: EUMode
+          Type: BaseVariableType
+          DataType: DynamicLinkEUMode
+          Value: 0
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../AnalogVariable1/EngineeringUnits/DisplayName"
+        Children:
+        - Name: EUMode
+          Type: BaseVariableType
+          DataType: DynamicLinkEUMode
+          Value: 0
+  - Name: AnalogVariable1
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: 4408652
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
