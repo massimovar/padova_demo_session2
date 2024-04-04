@@ -1796,7 +1796,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 70.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1806,7 +1806,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 730.0
+      Value: 740.0
     - Name: PenThickness
       Type: BaseDataVariableType
       DataType: Size
