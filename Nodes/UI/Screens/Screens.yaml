@@ -6390,3 +6390,35 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 14.0
+- Name: Screen6
+  Id: g=7629208dcbedcd440c4bd780f613b7ea
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: LED1
+    Type: Led
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
