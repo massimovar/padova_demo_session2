@@ -9,6 +9,10 @@ using FTOptix.Core;
 using FTOptix.HMIProject;
 using FTOptix.System;
 using FTOptix.UI;
+using FTOptix.Recipe;
+using FTOptix.ODBCStore;
+using FTOptix.WebUI;
+using FTOptix.EventLogger;
 #endregion
 
 public class DataLoggerExporter : BaseNetLogic

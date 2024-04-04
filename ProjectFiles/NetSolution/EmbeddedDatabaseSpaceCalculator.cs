@@ -8,6 +8,10 @@ using System.Linq;
 using UAManagedCore;
 using FTOptix.System;
 using FTOptix.UI;
+using FTOptix.Recipe;
+using FTOptix.ODBCStore;
+using FTOptix.WebUI;
+using FTOptix.EventLogger;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 
