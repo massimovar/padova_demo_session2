@@ -1,0 +1,40 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [25,2],
+    "Body": [
+     "","en-US",
+     "ApplicationName","Application name",
+     "DeviceName","Device name",
+     "ProductName","Product name",
+     "OS ","OS ",
+     "DisableApplicationAndFirmwareUpdates","Disable application and firmware updates",
+     "LastDeploy","Last deploy",
+     "CatalogNumber","Catalog #",
+     "CPUTemperature","CPU temperature",
+     "CPUUtilization","CPU utilization",
+     "LastReboot","Last reboot",
+     "FreeMemory","Free memory",
+     "ProductInformation","Product Information",
+     "UsedMemory","Used memory",
+     "Diagnostics","Diagnostics",
+     "PowerOnTime","Power on time",
+     "FreeStorage","Free storage",
+     "UsedStorage","Used storage",
+     "Configuration","Configuration",
+     "Reboot","Reboot",
+     "RebootToCommitChanges","Reboot to commit changes",
+     "FTOptixStudio","FT Optix Studio",
+     "OptixPanelFirmware","OptixPanel firmware",
+     "SystemManager","System Manager",
+     "Versions","Versions"
+    ]
+   }
