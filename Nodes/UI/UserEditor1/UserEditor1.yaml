@@ -75,6 +75,7 @@ Children:
         Children:
         - Class: Reference
           Target: ns=3;i=481
+          Direction: Forward
         - Name: Model
           Type: NodePointer
           DataType: NodeId
@@ -173,6 +174,7 @@ Children:
         Children:
         - Class: Reference
           Target: ns=3;i=478
+          Direction: Forward
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1393,6 +1395,7 @@ Children:
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Class: Reference
                 Target: ns=3;i=480
+                Direction: Forward
               - Name: LocaleComboBoxLogic
                 Type: NetLogic
               - Name: Width
@@ -2862,6 +2865,7 @@ Children:
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Class: Reference
                 Target: ns=3;i=480
+                Direction: Forward
               - Name: LocaleComboBoxLogic
                 Type: NetLogic
               - Name: Width
@@ -3531,6 +3535,7 @@ Children:
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Class: Reference
     Target: ns=3;i=480
+    Direction: Forward
   - Name: Width
     Type: BaseVariableType
     DataType: Size

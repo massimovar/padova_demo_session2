@@ -147,6 +147,10 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Status_it-IT'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
   - Class: Reference
     Target: ns=9;i=30
     Direction: Forward

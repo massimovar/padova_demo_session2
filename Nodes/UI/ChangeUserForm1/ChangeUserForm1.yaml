@@ -30,6 +30,7 @@ Children:
     Children:
     - Class: Reference
       Target: ns=3;i=480
+      Direction: Forward
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -454,6 +455,7 @@ Children:
   Children:
   - Class: Reference
     Target: ns=3;i=519
+    Direction: Forward
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -544,6 +546,7 @@ Children:
           Children:
           - Class: Reference
             Target: g=f1305c0ed1577b7b4e4d535c1be4761a
+            Direction: Forward
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
